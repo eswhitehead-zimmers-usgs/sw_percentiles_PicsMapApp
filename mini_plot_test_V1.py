@@ -36,7 +36,7 @@ def load_dat():
                                    dtype = {"site_no": "string"})
     
     # Deleware river watershed boundaries: https://www.nj.gov/drbc/basin/map/GIS.html
-    drb_watersheds = gp.read_file("drb147\\drb147.shp")
+    drb_watersheds = gp.read_file("drb147.shp")
     
     # In this version, hand select sites you want to display on the map
     site_nms = "BEAVER KILL AT COOKS FALLS NY|Brodhead Creek at Minisink Hills, PA|Little Neshaminy C at Valley Road nr Neshaminy PA|RED CLAY CREEK NEAR STANTON, DE|Maurice River at Norma NJ"
