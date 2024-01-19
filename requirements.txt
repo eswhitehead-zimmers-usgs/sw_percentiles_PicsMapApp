@@ -1,0 +1,9 @@
+streamlit==1.28.2
+pandas
+plotly
+dataretrieval==1.0.6
+geopandas==0.12.2
+folium
+streamlit_folium
+matplotlib
+mapclassify
