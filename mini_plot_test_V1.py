@@ -19,9 +19,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Set working directory
-os.chdir('C:\\Users\\eswhitehead-zimmers\\OneDrive - DOI\\Documents\\Python_Projects\\percentile-trends')
-
 # Define functions
 def load_dat():
 # This function loads in surface water percentile trends for all sites
@@ -154,7 +151,7 @@ def rast_dat(fig, m, site_list, station_nm,i):
     
 
 
-    image_path = "Data\\bar_fig" + str(i) + ".png" 
+    image_path = "bar_fig" + str(i) + ".png" 
 
     # Overlay .png on the map
     fl.raster_layers.ImageOverlay(
