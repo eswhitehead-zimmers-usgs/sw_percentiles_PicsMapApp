@@ -31,7 +31,7 @@ def load_dat():
         # that we want to be plotted on the map
     
     
-    trends_all_sites = pd.read_csv(r"C:\Users\eswhitehead-zimmers\OneDrive - DOI\Documents\Python_Projects\percentile-trends\Data\sw_trends_all_sites.csv",
+    trends_all_sites = pd.read_csv(r"sw_trends_all_sites.csv",
                                    index_col = 0,
                                    dtype = {"site_no": "string"})
     
