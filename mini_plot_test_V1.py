@@ -177,7 +177,7 @@ st.set_page_config(layout="wide")
 
 # Add Title
 '''
-# Discharge Trends for Streams in Delaware River Basin UPDATING??
+# Discharge Trends for Streams in Delaware River Basin
 '''
 
 
